@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+}
+ body{
+    background-color: #212529; 
+}
+
+        /* Navbar Styling start */
+ .favoritecolor{
+    color: rgb(239, 255, 90) !important; 
+}
+ .navbar-nav {
+    margin: 0 auto;
+    font-size: 18px;
+}
+ .navbar-brand a{
+    font-size: 20px;
+}
+ .navhover a:hover{
+    color: #EFFF5A;
+}
+ .navhover.active .nav-link {
+    color: #EFFF5A;
+}
+
+    /* Main Content styling start */
+ .productshead{
+    font-weight: bold;
+    color: #cad65e;
+}
+ .Categerous a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 65px;
+}
+ .Categerous li :hover{
+    color: rgb(239, 255, 90) ;
+}
+ .Categerous li {
+    color: white;
+    list-style-type: none;
+    font-size: 30px;
+}
+ .mainimage{
+    width: 90%;
+} 
+
+    /* Fresh fruit and vegetables styling start */
+.friutbutton{
+    color: #FFD43B;
+}
+ .feature-item-text{
+    text-align: center;
+    color: wheat;
+    margin-top: 10px;
+}
+ .feature-item-text a{
+    text-decoration: none;
+    color: wheat;
+    font-size:20px;
+}
+ .owl-nav{
+     color: #fff;
+     font-size: 30px;
+ }
+ .shop {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+    /* Services styling start */
+.img-box{
+    position: relative;
+}
+.detail-box{
+    position: absolute;
+    bottom: 5px;
+    left: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.detail-box h3:hover{
+    font-size: 40px;
+}
+.img-box img{
+    border-radius: 5%;
+}
+
+    /* Best Seller styling start */
+.fav-border{
+   border: 1px solid rgb(239, 255, 0) !important;
+}
+.transform{
+    overflow: hidden;
+    border-radius: 45%;
+}
+.transform img{
+    transition: 0.5s; 
+}
+.transform img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.text{
+    color: rgb(239, 255, 0) !important; ;
+}
+ a.hoverness:hover {
+    background-color: #FFB524;
+    color: white !important;
+}
+a.hoverness i:hover{
+    color: white !important;
+}
+
+    /* Blog section styling start */
+.blog .blog-item {
+    transition: 0.5s;
+}
+.blog .blog-item:hover {
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.8);
+}
+.blog .blog-item .blog-img {
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px 10px 0 0;
+}
+.blog .blog-item .blog-img img {
+    transition: 0.5s;
+}
+.blog .blog-item .blog-img img:hover {
+    transform: scale(1.2);
+}
+
+    /* Contact section styling start */
+.contact{
+    background-image: url('../Pictures/contact.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.footer-item a{
+    display: block;
+    line-height: 50px;
+}
+.footer-item .btn-link{
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+    text-decoration: none;
+}
+.footer-item a.btn-link {
+    font-size: 20px;
+}
+.footer-item a:hover{
+    color: #cad65e;
+    transition: 0.3s;
+}
+.follow i {
+    padding: 10px;
+    font-size: 30px;
+}
+.payment-icon{
+    padding: 10px;
+}
+.copyright{
+    color: lightgray;
+    font-size: 20px;
+}
+
+
+/* Service page styling start */
+.service .service-item {
+    transition: 0.3s;
+}
+.service .service-item:hover {
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+    border: 2px solid #F5F7F8;
+}
+.service .service-item .service-img {
+    overflow: hidden;
+    transition: 0.3s;
+    border-radius: 10px 10px 0 0;
+}
+.service .service-item .service-img img {
+    transition: 0.3s;
+}
+.service .service-item .service-img img:hover {
+    transform: scale(1.2);
+}
+.text-justify {
+    text-align: justify;
+  }
+
+    /* Blog page styling start */
+.blogpage-img{
+    background-image: url('../Pictures/blog-page.jpg');
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+@media (max-width: 768px) {
+    .blogpage-img {
+      background-size: contain; /* You can adjust this for smaller screens */
+      height: 90vh;
+    }
+  }
+
+.blog-items:hover {
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.2);
+    border: 1px solid #212529;
+    transition: all 0.3s;
+}
+        /* about page styling strat */
+.costomer-detail:hover{
+   background-color:  #232A33;
+    border-radius: 5px;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.5);
+   
+    transition: all 0.3s;
+}
+.aboutpage-image{
+    background-image: url('../Pictures/Aboutus.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  
+    background-repeat: no-repeat;
+   
+}
+@media (max-width: 768px) {
+    .aboutpage-image {
+      background-size: contain; /* You can adjust this for smaller screens */
+      
+      
+    }
+  } 
+
+  
