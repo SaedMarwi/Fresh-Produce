@@ -134,12 +134,7 @@ a.hoverness i:hover{
 }
 
     /* Contact section styling start */
-.contact{
-    background-image: url('../Pictures/contact.jpg');
-    width: 100%;
-    height: auto;
-    background-size: cover;
-}
+
 .footer-item a{
     display: block;
     line-height: 50px;
