@@ -217,7 +217,7 @@ a.hoverness i:hover{
     transition: all 0.3s;
 }
 .aboutpage-image{
-    background-image: url('../Pictures/Aboutus.jpg');
+    background-image: url('../Pictures/about-us-information.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
